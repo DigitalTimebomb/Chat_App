@@ -2,14 +2,25 @@
   max-width: 600px;
 }
 .btn{
-  background: #43d9be;
-  color: white;
-  outline: none !important;
-  box-shadow: none !important;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
 }
-.btn:focus{
-  outline: none !important;
+
+.btn:hover{
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+
 }
+/* .btn:focus{
+  outline: none;
+} */
 .username{
   font-weight: bold;
 }
@@ -17,6 +28,33 @@
   font-size: 0.7em;
   color: #999;
 }
+
+h1{
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.my-2{
+  color: white;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+#gaming, #general, #music, #ideas{
+  text-shadow: 1px 1px 3px gray;
+}
+
+
+.chat-window{
+  max-width: 600px;
+  max-height: 300px;
+  overflow: scroll;
+}
+
+
+
+  
+  
+
 
 body{
   background-color: aquamarine;

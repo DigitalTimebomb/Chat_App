@@ -1,5 +1,6 @@
 .container{
   max-width: 600px;
+  
 }
 .btn{
   background-color: #fff;
@@ -56,6 +57,9 @@ h1{
   
 
 
-body{
-  background-color: aquamarine;
-}
+ body{
+   background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+

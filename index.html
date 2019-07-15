@@ -5,20 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
   <title>Beau Chat</title>
 </head>
 <body background="Images/flower.jpg" >
 
   <!-- container & title -->
   <div class="container my-4">
-    <h1 class="my-4 text-center">Beau Chat</h1>
+    <h1>Beau Chat</h1>
+    <h6 class="my-2 text-center">by Tom Beaudry</h6>
     <!-- buttons for chatrooms -->
     <div class="chat-rooms mb-3 text-center">
-      <div class="my-2">Choose a Chatroom:</div>
-      <button class="btn" id="general">#general</button>
-      <button class="btn" id="gaming">#gaming</button>
-      <button class="btn" id="music">#music</button>
-      <button class="btn" id="ideas">#ideas</button>
+      <!--<div class="my-2">Choose a Chatroom</div> -->
+      <button class="btn" id="general">Room #1</button>
+      <button class="btn" id="gaming">Room #2</button>
+      <button class="btn" id="music">Room #3</button>
+      <button class="btn" id="ideas">Room #4</button>
     </div>
     <!-- chat list / window -->
     <div class="chat-window">
@@ -28,7 +30,7 @@
     <form class="new-chat my-3">
       <div class="input-group">
         <div class="input-group-prepend">
-          <div class="input-group-text">Your Message:</div>
+          <div class="input-group-text" id="btn">Message:</div>
         </div>
         <input type="text" id="message" class="form-control" required>
         <div class="input-group-append">
@@ -40,11 +42,11 @@
     <form class="new-name my-3">
       <div class="input-group">
         <div class="input-group-prepend">
-          <div class="input-group-text">Your Name:</div>
+          <div class="input-group-text" id="btn">Username:</div>
         </div>
         <input type="text" id="name" class="form-control" required>
         <div class="input-group-append">
-          <input type="submit" class="btn" value="update">
+          <input type="submit" class="btn" value="send">
         </div>
       </div>
       <div class="update-mssg text-center my-2"></div>
@@ -72,5 +74,11 @@
   <script src="scripts/chat.js"></script>
   <script src="scripts/ui.js"></script>
   <script src="scripts/app.js"></script>
+
+
+
+
+
+
 </body>
 </html>

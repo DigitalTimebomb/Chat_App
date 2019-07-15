@@ -12,16 +12,22 @@
   outline: none;
 }
 
-.btn:hover{
-  background-color: #2EE59D;
+ .btn:hover{
+  background-color: rgb(229, 46, 153);
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-  color: #fff;
+  color: rgb(255, 255, 255);
   transform: translateY(-7px);
 
 }
-/* .btn:focus{
-  outline: none;
-} */
+ .btn, #btn{
+  background-color: lightskyblue;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+} 
+
+#btn{
+  color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
 .username{
   font-weight: bold;
 }
@@ -32,34 +38,63 @@
 
 h1{
   color: white;
-  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 1px 2px 2px black;
+  
+  
 }
 
 .my-2{
   color: white;
-  text-shadow: 2px 2px 3px #000000;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 1px 1px 1px black;
+
 }
 
-#gaming, #general, #music, #ideas{
+.btn{
+  color: white;
   text-shadow: 1px 1px 3px gray;
 }
 
 
+
 .chat-window{
+  color: rgb(29, 158, 238);
   max-width: 600px;
   max-height: 300px;
   overflow: scroll;
 }
 
-
-
-  
-  
-
-
  body{
-   background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 } 
 
+/* ---- reset ---- */ body{ 
+  margin:0; 
+  font:normal 75% Arial, Helvetica, sans-serif;
+ } 
+ 
+ canvas{
+  display: block; vertical-align: bottom; 
+}
+
+/* ---- stats.js ---- */
+
+#message, #name{
+  color: rgb(29, 158, 238);
+}
+
+.new-name my-3{
+  color: lightskyblue;
+}
+
+
+ 
+ body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 

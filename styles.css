@@ -43,7 +43,8 @@ h1{
   font-family: 'Great Vibes', cursive;
   text-shadow: 1px 2px 2px black;
   
-  
+  animation-name: moveInLeft;
+  animation-duration: 1.3s;
 }
 
 .my-2{
@@ -51,6 +52,8 @@ h1{
   font-family: 'Great Vibes', cursive;
   text-shadow: 1px 1px 1px black;
 
+  animation-name: moveDown;
+  animation-duration: 1s;
 }
 
 .btn{
@@ -98,3 +101,34 @@ h1{
   background-repeat: no-repeat;
 }
 
+@keyframes moveInLeft{
+0% {
+  opacity: 0;
+  transform: translateX(-300px);
+}
+
+80%{
+  transform: translateX(10px);
+}
+
+100% {
+  opacity: 1;
+  transform: translate(0);
+}
+}
+
+@keyframes moveDown{
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
